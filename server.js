@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
+const config = require('./config.json');
 const Gamedig = require('gamedig');
 const client = new Discord.Client();
-const prefix = "!"
+const prefix = config.prefix
 
 let state = null;
 
@@ -71,4 +72,4 @@ client.on('ready', () => {
   }, 6000);
 });
 
-client.login('YourTokenDiscordAPP');
+client.login(config.token);
