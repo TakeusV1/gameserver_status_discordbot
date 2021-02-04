@@ -1,5 +1,9 @@
 # GameServer_Status_Discord.JS
  A simple discord.js bot using gamedig for status
+ ---------------------------------------------------------
+ # Features
+
+*In redaction*
 
 ---------------------------------------------------------
 # Installation
@@ -12,5 +16,5 @@
 ---------------------------------------------------------
 # Gamedig
 
-**To modify the type of server**
+**To modify the type of server:**
 https://www.npmjs.com/package/gamedig
