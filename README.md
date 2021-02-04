@@ -6,8 +6,8 @@
 
 1) Install all dependencies: `npm install`
 2) Install PM2: `npm install pm2` *(optional)*
-3) For testing: `node server.js`
-2) for start the bot (prod): `pm2 start server.js` *(optional)*
+3) For start the bot (testing): `node server.js`
+2) For start the bot (prod): `pm2 start server.js` *(optional)*
 
 ---------------------------------------------------------
 # Gamedig
