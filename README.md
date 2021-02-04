@@ -1,11 +1,11 @@
 # GameServer_Status_Discord.JS
  A simple discord.js bot using gamedig for status
- ---------------------------------------------------------
+ 
  # Features
 
 *In redaction*
 
----------------------------------------------------------
+
 # Installation
 
 1) Install all dependencies: `npm install`
@@ -13,7 +13,7 @@
 3) For start the bot (testing): `node server.js`
 2) For start the bot (prod): `pm2 start server.js` *(optional)*
 
----------------------------------------------------------
+
 # Gamedig
 
 **To modify the type of server:**
