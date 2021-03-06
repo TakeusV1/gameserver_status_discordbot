@@ -5,6 +5,10 @@
 
 *In redaction*
 
+# Configuration
+
+1) Put the token in **config.json**
+2) Change Gamedig Query in **server.js**
 
 # Installation
 
