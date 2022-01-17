@@ -29,11 +29,15 @@ const command = args.shift().toLowerCase();
     const latence = state.ping;
     
     // Print State
-    message.channel.send('__**Status**__: Online (:green_circle:)');
-    message.channel.send('__**Name**__: ' + nom);
-    message.channel.send('__**Map**__: ' + carte);
-    message.channel.send('__**Players**__: ' + nb_joueurs + '/' + nb_joueursmax + ' (' + nb_robots + ')');
-    message.channel.send('__**Latency**__: ' + latence + ' ms'); 
+    const Embed = new Discord.MessageEmbed()
+      .setColor('#78B159')
+      .setTitle('__**Status:**__ Online (:green_circle:)')
+      .addField('__**Name:**__ ', '``' + nom + '``')
+      .addField('__**Map:**__ ', '``' + carte + '``')
+      .addField('__**Players:**__ ', '``' + nb_joueurs + '/' + nb_joueursmax + ' (' + nb_robots + ')' + '``')
+      .addField('__**Latency:**__ ', '``' + latence + ' ms' + '``')
+      .setTimestamp()
+    message.channel.send(Embed)
   }
 
 // others commands...
